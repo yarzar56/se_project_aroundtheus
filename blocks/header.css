@@ -1,0 +1,25 @@
+.header {
+  max-width: 880px;
+  max-height: 74px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.header__logo {
+  max-width: 173px;
+  max-height: 33px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Vector.svg);
+}
+
+.header__line {
+  border: 1px solid #545454;
+  max-width: 880px;
+  height: 0;
+  width: 100%;
+}

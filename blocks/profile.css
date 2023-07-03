@@ -1,0 +1,135 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 880px;
+  max-height: 120px;
+  width: 100%;
+  height: 100%;
+  margin: 40px 0 0;
+  /*align-items:center Causing  "edit button" element to crush vertically*/
+  align-items: center;
+  column-gap: 30px;
+
+  /* display: grid;
+  max-width: 880px;
+  max-height: 120px;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 3fr 2fr;*/
+}
+
+.profile__image {
+  background-image: url(../images/jacques-cousteau.jpg);
+  background-size: contain;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.profile__info {
+  max-width: 415px;
+  max-height: 77px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.profile__title {
+  font-family: Inter;
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0 0;
+}
+
+.profile__button_value_edit {
+  /* max-width: 24px;
+  max-height: 24px;
+  width: 100%;
+  height: 100%;*/
+
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/Vector-edit-button.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 18px;
+  border: 1px solid #ffffff;
+}
+
+.profile__description {
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+.profile__button_value_add {
+  max-width: 150px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/add-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #ffffff;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .profile__button_value_add {
+    max-width: 50px;
+  }
+  .profile__image {
+    max-width: 90px;
+    max-height: 90px;
+  }
+  .profile__info {
+    max-width: 340px;
+  }
+  .profile__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .profile {
+    max-width: 282px;
+    max-height: 286px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .profile__info {
+    flex-direction: row;
+    max-width: 282px;
+    max-height: 50px;
+    justify-content: center;
+  }
+  .profile__title {
+    max-width: 196px;
+    max-height: 22px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.35rem;
+  }
+  .profile__button_value_edit {
+    max-width: 18px;
+    max-height: 18px;
+  }
+  .profile__description {
+    font-size: 0.875rem;
+  }
+  .profile__button_value_add {
+    max-width: 282px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+  }
+}
