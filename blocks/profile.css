@@ -52,18 +52,16 @@
 }
 .profile__button_value_edit:hover {
   cursor: pointer;
-  opacity: 70%;
-  transition: opacity 0.25s linear;
+  opacity: 60%;
   box-shadow: 0 0 20px #109fff;
-  transition: box-shadow 0.25s linear;
+  transition: box-shadow 0.25s linear, opacity 0.25s linear;
 }
 
 .profile__button_value_add:hover {
   cursor: pointer;
-  opacity: 70%;
-  transition: opacity 0.25s linear;
+  opacity: 60%;
   box-shadow: 0 0 20px #109fff;
-  transition: box-shadow 0.25s linear;
+  transition: box-shadow 0.25s linear, opacity 0.25s linear;
 }
 
 .profile__description {
