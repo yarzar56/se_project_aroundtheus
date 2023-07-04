@@ -85,12 +85,9 @@
 }
 
 @media screen and (max-width: 919px) {
-  .profile {
-    justify-content: center;
-  }
   .profile__button_value_add {
     max-width: 50px;
-    margin: 0 0;
+    margin: 0 auto;
   }
   .profile__image {
     max-width: 90px;
