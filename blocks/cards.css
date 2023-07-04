@@ -19,6 +19,12 @@
   height: 100%;
 }
 
+.cards__element:hover {
+  box-shadow: 0 0 15px #70b5e4;
+  transform: translate(-5px, -5px);
+  transition: box-shadow 0.25s linear, transform 0.15s linear;
+}
+
 .cards__image {
   width: 282px;
   height: 282px;
@@ -55,6 +61,7 @@
 
 .cards__button:hover {
   opacity: 50%;
-  transition: opacity 0.15s linear;
+  transform: scale(1.25);
+  transition: opacity 0.15s linear, transform 0.15s linear;
   cursor: pointer;
 }

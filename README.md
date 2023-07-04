@@ -1,21 +1,31 @@
 # Project 3: Around The U.S.
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+- Intro
+- Features
+- Links
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+This is the 3rd Web developement project at TripleTen. This project is created using HTML and CSS. This project is focus on creating adaptive layout across all major screen resolutions.
+
+**Features**
+
+- Semantic HTML5
+- Display Flex
+- Display Grid
+- Positioning
+- Flat BEM
+- Adaptive layout
+
+**Links**
+
+- [link to the published project](https://yarzar56.github.io/se_project_aroundtheus/)
+- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
+
+## Plan on improving the project
+
+- add button shadows in hover state.
+- make the cards move up in hover state.
+- make the heart shape button red inside heartshape only in hoover state.
