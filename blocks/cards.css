@@ -1,11 +1,15 @@
 .cards {
+  margin-bottom: 67px;
+}
+
+.cards__list {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-gap: 20px 17px;
   max-width: 880px;
-  margin: 0 auto 67px;
   padding: 0;
+  margin: 0 auto;
 }
 
 .cards__element {
@@ -14,16 +18,10 @@
   border-radius: 10px;
   list-style: none;
   max-width: 282px;
-  max-height: 361px;
+  /*max-height: 361px;*/
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
-
-.cards__element:hover {
-  box-shadow: 0 0 15px #b06cf0;
-  transform: translate(-5px, -5px);
-  transition: box-shadow 0.25s linear, transform 0.15s linear;
 }
 
 .cards__image {
@@ -35,15 +33,17 @@
 .cards__description {
   background-color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+  /*justify-content: space-between;*/
+  /*padding-left: 20px;
   padding-right: 20px;
-  padding-top: 1.2px;
-  padding-bottom: 1.2px;
+  /*padding-top: 5.2px;
+  padding-bottom: 5.2px;*/
 }
 
 .cards__title {
+  width: 195px;
+  padding: 25px 28px 25px 20px;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
@@ -51,18 +51,26 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding-right: 20px;
+  margin: 0;
+  /*I am not very clear on what you said "reassign default vertical margin.?"*/
 }
 
 .cards__button {
   width: 21px;
   height: 18px;
   border-style: none;
-  background-image: url(../images/Vector-heart.svg);
+  background: transparent url(../images/Vector-heart.svg);
 }
 
 .cards__button:hover {
-  opacity: 50%;
-  transform: scale(1.25);
-  transition: opacity 0.15s linear, transform 0.15s linear;
+  opacity: 40%;
+  transition: opacity 0.15s linear;
   cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  .cards {
+    margin-bottom: 48px;
+  }
 }

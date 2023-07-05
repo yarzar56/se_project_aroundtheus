@@ -1,34 +1,33 @@
 .header {
   max-width: 880px;
-
   width: 100%;
-  height: 74px;
+  /*I have a question please. I asked the tutors and they don't have answer.
+  I was using max-height + heightt:100% on .header__logo. When I do align-items:center the verticle
+  height of the vector images were reduced to 0. Unless I gave these elements with vector image specific height
+  please refer to line 7 of the profile block*/
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.5);
   margin: 45px auto 0;
 }
 
 .header__logo {
-  max-width: 173px;
-  max-height: 33px;
-  width: 100%;
-  height: 100%;
+  width: 173px;
+  height: 33px;
   background-image: url(../images/Vector.svg);
   background-size: cover;
-}
-
-.header__line {
-  margin-top: 41px;
-  border-bottom: 1px solid #545454;
-
-  /* max-width: 880px;
-  width: 100%;*/
+  margin-bottom: 41px;
 }
 
 @media screen and (max-width: 620px) {
   .header__logo {
+    margin-bottom: 32px;
     max-width: 126px;
     max-height: 24px;
+  }
+  .header {
+    margin-top: 28px;
   }
 }
