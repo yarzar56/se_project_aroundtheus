@@ -1,20 +1,10 @@
 .header {
   max-width: 880px;
   width: 100%;
-  /*Thank you so much!!
-  So if I use <img> tag to import the vector images in Html, instead of using background-image property, I wouldn't have the 
-  problem of height getting reduced to 0, right?
-  */
-  /* 1 more question please! I had the .page block's left and right padding removed in
- previous version at screen resolution of 620px which is when there isn't enough space
- to have 2 cards with border. When the padding disappeared at 620 there is enough space again
- and the grid made the cards go back to 2 columns. In this last submittion, I changed the 
- media-query in .page value to 590 so that the grid doesn't revert back.
- Is that corrrect?*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(84, 84, 84, 1);
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
   margin: 45px auto 0;
 }
 
