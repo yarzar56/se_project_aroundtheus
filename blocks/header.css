@@ -1,15 +1,15 @@
 .header {
   max-width: 880px;
   width: 100%;
-  /*I have a question please. I asked the tutors and they don't have answer.
-  I was using max-height + heightt:100% on .header__logo. When I do align-items:center the verticle
-  height of the vector images were reduced to 0. Unless I gave these elements with vector image specific height
-  please refer to line 7 of the profile block*/
+  /*Thank you so much!!
+  So if I use <img> tag to import the vector images in Html, instead of using background-image property, I wouldn't have the 
+  problem of height getting reduced to 0, right?
+  */
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.5);
+  border-bottom: 1px solid rgba(84, 84, 84, 1);
   margin: 45px auto 0;
 }
 
