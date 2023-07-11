@@ -1,7 +1,7 @@
 let initialCards = [
   {
     name: "Yosimite Valley",
-    cardLink: "https://unsplash.com/photos/MNtnaKks2n8",
+    link: "https://unsplash.com/photos/MNtnaKks2n8",
   },
   {
     name: "Lake Louise",
@@ -24,3 +24,4 @@ let initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/lago.jpg",
   },
 ];
+console.log(initialCards);
